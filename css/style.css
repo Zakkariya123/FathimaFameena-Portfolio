@@ -1,0 +1,200 @@
+﻿/** {
+    border: 1px solid red !important;
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing:border-box;
+}
+body, 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color:#ff5a00;
+  /*background-color: #57BC90;*/
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width:100%;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+.row {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+    
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background:#BCBBBB;
+} 
+img
+{
+	border-radius:50px;
+	padding:20px;
+}
+p{
+
+	 /*color:#BCBBBB;*/
+	 font-size:16px;
+	 text-align: center; 
+	 font-style: italic;
+
+}
+.space
+{
+	padding:20px;
+	font-weight:700;
+	font-size:16px;
+}
+.logospace
+{
+	 margin-bottom:
+
+0px;
+margin-left:
+10px;
+margin-right:
+10px;
+margin-top:
+0px;
+}
+.h1{
+    font-weight:600;
+    margin-bottom:0px;
+    margin-left:0px;
+	margin-right:0px;
+	margin-top:40px;
+	text-align: left;
+}
+.h4{
+    margin-bottom:8px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:10px;
+	text-align: left;
+}
+.h3
+{
+ 	font-size:20px;
+ 	text-align:center;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.h2
+{
+ 	margin-bottom:8px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:8px;
+}
+.h6
+{
+    margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+}
+.h3 a{
+	color:#ff5a00;
+}
+.nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color:#ff5a00;
+  padding: 1.5em;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+a:link{
+    /*color:#BCBBBB;*/
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+    }
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
